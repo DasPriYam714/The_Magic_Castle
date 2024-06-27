@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE0EB2F9-A731-4C52-85A8-91AEB6C129F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>The_Magic_Castle</RootNamespace>
+    <AssemblyName>The Magic Castle</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess layer\AdminDataAccess.cs" />
+    <Compile Include="DataAccess layer\CategoryDataAccess.cs" />
+    <Compile Include="DataAccess layer\DataAccess.cs" />
+    <Compile Include="DataAccess layer\FoodDataAccess.cs" />
+    <Compile Include="DataAccess layer\UserDataAccess.cs" />
+    <Compile Include="Entity classes\Category.cs" />
+    <Compile Include="Entity classes\Food.cs" />
+    <Compile Include="Entity classes\User.cs" />
+    <Compile Include="Presentation Layer\About Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\About Us.Designer.cs">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\AddOrDelete Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AddOrDelete Category.Designer.cs">
+      <DependentUpon>AddOrDelete Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Contuct Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Contuct Us.Designer.cs">
+      <DependentUpon>Contuct Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Login Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Login Dashboard.Designer.cs">
+      <DependentUpon>Login Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Manage Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Manage Category.Designer.cs">
+      <DependentUpon>Manage Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ManageFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ManageFood.Designer.cs">
+      <DependentUpon>ManageFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\AddOrDeleteFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AddOrDeleteFood.Designer.cs">
+      <DependentUpon>AddOrDeleteFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Manager Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Manager Info.Designer.cs">
+      <DependentUpon>Manager Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ManagerUpdateFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ManagerUpdateFood.Designer.cs">
+      <DependentUpon>ManagerUpdateFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\RemoveManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\RemoveManager.Designer.cs">
+      <DependentUpon>RemoveManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\SearchFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\SearchFood.Designer.cs">
+      <DependentUpon>SearchFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\SearchManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\SearchManager.Designer.cs">
+      <DependentUpon>SearchManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\TMC Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\TMC Homepage.Designer.cs">
+      <DependentUpon>TMC Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateCategory.Designer.cs">
+      <DependentUpon>UpdateCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateFood.Designer.cs">
+      <DependentUpon>UpdateFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateManagerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateManagerInfo.Designer.cs">
+      <DependentUpon>UpdateManagerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentation Layer\About Us.resx">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\AddOrDelete Category.resx">
+      <DependentUpon>AddOrDelete Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Contuct Us.resx">
+      <DependentUpon>Contuct Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Login Dashboard.resx">
+      <DependentUpon>Login Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Manage Category.resx">
+      <DependentUpon>Manage Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ManageFood.resx">
+      <DependentUpon>ManageFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\AddOrDeleteFood.resx">
+      <DependentUpon>AddOrDeleteFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Manager Info.resx">
+      <DependentUpon>Manager Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ManagerUpdateFood.resx">
+      <DependentUpon>ManagerUpdateFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\RemoveManager.resx">
+      <DependentUpon>RemoveManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\SearchFood.resx">
+      <DependentUpon>SearchFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\SearchManager.resx">
+      <DependentUpon>SearchManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\TMC Homepage.resx">
+      <DependentUpon>TMC Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\UpdateCategory.resx">
+      <DependentUpon>UpdateCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\UpdateFood.resx">
+      <DependentUpon>UpdateFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\UpdateManagerInfo.resx">
+      <DependentUpon>UpdateManagerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\alpen-rose-burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\food-3245765_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\istockphoto-104704117-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\istock000044051102large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\7066870.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-pixabay-262978.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-chan-walrus-958545.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-live-on-shot-2788792.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-rachel-claire-4577410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-brigitte-tohm-143640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-rajesh-tp-1600711.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-quang-nguyen-vinh-2159065.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-engin-akyurt-2673353.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-frans-van-heerden-670705.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-tim-douglas-6210916.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-anna-tarazevich-6937457.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-daniela-constantini-5591666.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-rajesh-tp-1600727.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\542932582bc05_thumb900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\2017_06_29_MagicCastle_020.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-igor-starkov-769153.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\pexels-ryutaro-tsukata-5220092.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\20201024002837_IMG_3561-02-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\MicrosoftTeams-image %2839%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\MicrosoftTeams-image %2840%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

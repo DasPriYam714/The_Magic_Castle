@@ -1,0 +1,29 @@
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\bin\Debug\The Magic Castle.exe.config
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\bin\Debug\The Magic Castle.exe
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\bin\Debug\The Magic Castle.pdb
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The Magic Castle.csproj.AssemblyReference.cache
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.Login.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Properties.Resources.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The Magic Castle.csproj.GenerateResource.cache
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The Magic Castle.csproj.CoreCompileInputs.cache
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The Magic Castle.exe
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The Magic Castle.pdb
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.Registration.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.Login_Dashboard.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.AdminLogin.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.AdminHome.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.Manage_Category.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.ManageFood.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.Manager_Info.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.UpdateCategory.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.AddOrDelete_Category.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.UpdateManagerInfo.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.RemoveManager.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.AddOrDeleteFood.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.UpdateFood.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.ManagerUpdateFood.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.SearchFood.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.SearchManager.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.TMC_Homepage.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.Contuct_Us.resources
+E:\C#\Project c#\Our new Project\The Magic Castle\The Magic Castle\obj\Debug\The_Magic_Castle.Presentation_Layer.About_Us.resources
